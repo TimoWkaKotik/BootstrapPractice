@@ -1,0 +1,238 @@
+a {
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+a:active {
+	color: rgba(0, 0, 0, 1);
+}
+
+* {
+	font-family: 'Commissioner', sans-serif;
+}
+
+p, 
+span,
+h1, h2, h3, h4 {
+	color: #000000;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	-webkit-clip-path: inset(100%);
+	      clip-path: inset(100%);
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0; 
+}
+
+/*------navigation-----*/
+
+.navigation__link {
+	text-transform: uppercase;
+}
+
+.navigation__link--brand-name {
+	text-transform: none;
+	color: #000000;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+/*------promo_section------*/
+
+.main__promo {
+	background-image: url("../img/promo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 100vh;
+}
+
+.promo__wrapper {
+	padding-top: 150px;
+}
+
+.promo__title,
+.promo__description {
+	color: #ffffff;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.promo__description {
+	margin-top: 45px;
+}
+
+.promo__link {
+	margin: 0 auto;
+	margin-top: 60px;
+	padding: 10 50px;
+	width: 180px;
+	background-color: #ffffff;
+	display: block;
+}
+
+.promo__link:hover {
+	opacity: 0.7
+}
+
+.promo__link:active {
+	opacity: 0.3
+}
+
+/*
+В дальнейшем для алаптивности. Скорее всего, другое решение.
+
+@media (min-width: 1024px)  {
+	.promo__wrapper {
+		padding-top: 150px;
+	}
+}
+
+@media (min-width: 768px)  {
+	.promo__wrapper {
+		padding-top: 100px;
+	}
+
+	.promo__description {
+		width: 43%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.promo__wrapper {
+		padding-top: 10px;
+	}
+
+	.promo__description {
+		margin-top: 10px;
+		font-size: 12px;
+	}
+
+	.promo__link {
+		margin-top: 20px;
+	}
+}
+*/
+
+/*-----advantages------*/
+
+.advantages__title {
+	font-size: 22px;
+	margin: 30px 0;
+}
+
+.advantages__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.advantages__name {
+	display: block;
+}
+
+/*-----about_us------*/
+
+.about-us__title {
+	font-size: 22px;
+	margin: 40px 0;
+}
+
+/*-----mail_subscription------*/
+
+.mail-subscription {
+	padding: 25px 0;
+	background-color: #FFA035;
+}
+
+.mail-subscription__title {
+	font-size: 17px;
+	color: #ffffff;
+}
+
+.form-mail {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.form-mail__wrapper {
+	display: flex;
+}
+
+.form-mail__input {
+	padding-left: 15px;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	width: 80%;
+}
+
+.form-mail__input::-webkit-input-placeholder {
+	color: #ffffff;
+}
+
+.form-mail__input::-moz-placeholder {
+	color: #ffffff;
+}
+
+.form-mail__input:-moz-placeholder {
+	color: #ffffff;
+}
+
+.form-mail__input:-ms-input-placeholder {
+	color: #ffffff;
+}
+
+.form-mail__btn {
+	width: 100%;
+	padding: 10 50px;
+	background-color: #ffffff;
+	display: block;
+	border-radius: 0;
+}
+
+/*-----giroscuter------*/
+
+.giroscuter__title {
+	font-size: 22px;
+	margin: 30px 0;
+}
+
+.giroscuter__wrapper span {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.giroscuter__wrapper span:last-child {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
